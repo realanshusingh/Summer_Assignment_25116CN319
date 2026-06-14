@@ -9,7 +9,6 @@ int main()
     printf("Enter second number: ");    
     scanf("%d", &b);
     printf("LCM is: %d", (a*b)/gcd(a,b));
-
     return 0;
 }
 int gcd(int a, int b)
